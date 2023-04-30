@@ -7,7 +7,7 @@ using RestSharp;
 public class ChatGPTApi
 {
 private const string API_URL = "https://api.openai.com/v1/";
-private const string API_KEY = "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";
+private const string API_KEY = "your-api-key-here";
 
 private RestClient client;
 private List<string> conversationHistory;
